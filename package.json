@@ -1,0 +1,22 @@
+{
+  "name": "44",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client":"dead-server --host=localhost --port=4444",
+    "server": "nodemon ./dist",
+    "ts": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "dead-server": "^1.0.9",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  }
+}
